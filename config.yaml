@@ -1,0 +1,30 @@
+ipport: 192.168.2.95:10000
+startsendtime: 2017-01-02 08:08:08
+sendmaxcountperday: 100
+devices:
+  - nodes:
+      - pkid: 10
+        bkid: 20
+        index: 30
+        minvalue: 5
+        maxvalue: 60
+        datatype: normal
+      - pkid: 0
+        bkid: 0
+        index: 0
+        datatype: boolean
+    devid: 123456789
+
+  - nodes:
+      - pkid: 0
+        bkid: 1
+        index: 0
+        datatype: boolean
+    devid: 10001
+
+warnfrequency: 10
+serndrequency: 10
+
+http:
+  ip: 0.0.0.0
+  port: 80
